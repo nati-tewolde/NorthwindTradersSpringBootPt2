@@ -13,9 +13,12 @@ public class SimpleProductDAO implements IProductDAO {
 
     public SimpleProductDAO() {
         this.Products = new ArrayList<>();
-        Products.add(new Product("Banana", 1, 3.99));
-        Products.add(new Product("Band Aids", 2, 10.99));
-        Products.add(new Product("Water Bottle", 3, 29.99));
+        Products.add(new Product(1, "Banana", 1, 3.99));
+        Products.add(new Product(2, "Band Aids", 2, 10.99));
+        Products.add(new Product(3, "Water Bottle", 3, 29.99));
+        Products.add(new Product(4, "T-Shirt", 3, 12.99));
+        Products.add(new Product(5, "Skateboard", 2, 51.99));
+        Products.add(new Product(6, "Gum", 1, 0.99));
     }
 
     @Override
